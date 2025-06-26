@@ -12,7 +12,7 @@ This is a backend implementation of an Airbnb-like booking platform. The goal is
 
 ## Tech Stack
 - Python (Django Framework)
-- MySQL (Relational Database)
+- Postgresql (Relational Database)
 - Docker (Containerization)
 - Git & GitHub (Version Control & Collaboration)
 - GitHub Actions (CI/CD)
