@@ -163,4 +163,19 @@ Payment data is handled through secure third-party gateways using HTTPS. Sensiti
 - **System Integrity:** Prevents unauthorized users from accessing, modifying, or deleting critical data.
 - **Reputation:** A secure system fosters user trust and protects the credibility of the platform.
 
+## CI/CD Pipeline
 
+CI/CD (Continuous Integration and Continuous Deployment) is a development practice that automates the process of testing, building, and deploying code. It ensures that new changes are integrated smoothly, tested consistently, and deployed rapidly without manual intervention.
+
+### Why CI/CD Is Important
+- **Improves code quality** by running automated tests on every push or pull request.
+- **Reduces deployment risks** by catching bugs early and ensuring each build is stable.
+- **Boosts team productivity** by eliminating repetitive manual tasks.
+- **Enables faster delivery** of features and updates to end-users.
+
+### Tools Used
+- **GitHub Actions**: Automates workflows for testing and deployment. Triggers on events like `push`, `pull_request`, or `release`.
+- **Docker**: Packages the application in a consistent environment across development, staging, and production.
+- **PostgreSQL** (used within Docker): Provides a reliable and consistent database setup for testing and production.
+
+The CI/CD pipeline in this project will ensure that every code change is tested, containerized, and ready for deployment in a clean, repeatable process.
