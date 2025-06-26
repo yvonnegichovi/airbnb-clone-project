@@ -36,7 +36,7 @@ Oversees project planning, task assignment, and timeline management. The PM ensu
 While primarily frontend, this role may be involved in API contracts and ensuring backend endpoints align with frontend expectations, even if not actively coding in this phase.
 
 
-## Tech Stack
+## Technology Stack
 - Python (Django Framework)
 - Postgresql (Relational Database)
 - Docker (Containerization)
