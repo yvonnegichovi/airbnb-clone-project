@@ -135,3 +135,32 @@ Implements robust authentication and authorization mechanisms. Ensures user data
 ### 🔄 CI/CD & Deployment
 Uses GitHub Actions and Docker to automate testing, integration, and deployment workflows. This ensures consistent development practices, minimizes errors, and accelerates delivery cycles.
 
+## API Security
+
+Securing backend APIs is critical to maintaining user trust, protecting sensitive data, and preventing abuse of the system. This project implements the following key security measures:
+
+### 🔐 Authentication
+We use token-based authentication (e.g., JWT or session tokens) to verify user identity. This ensures only registered users can access protected endpoints and prevents unauthorized access.
+
+### ✅ Authorization
+Role-based access control (RBAC) is implemented to restrict certain actions (like listing a property or managing bookings) to specific user roles (e.g., host vs guest). This limits exposure and ensures users can only perform actions within their privilege level.
+
+### 🚦 Rate Limiting
+Rate limiting prevents abuse by restricting the number of requests a client can make within a given timeframe. This mitigates brute-force attacks and protects the system from being overwhelmed by malicious users.
+
+### 🧑‍💻 Input Validation & Sanitization
+All incoming data is validated and sanitized to prevent injection attacks, such as SQL injection and cross-site scripting (XSS). This guards against data corruption and unauthorized access.
+
+### 🔒 Secure Payment Processing
+Payment data is handled through secure third-party gateways using HTTPS. Sensitive transaction data is not stored in plain text, reducing the risk of data breaches.
+
+---
+
+### Why Security Is Crucial
+
+- **User Data Protection:** Ensures personally identifiable information (PII), like emails and passwords, are encrypted and stored safely.
+- **Transaction Security:** Payment information and booking details must be safeguarded against theft or tampering.
+- **System Integrity:** Prevents unauthorized users from accessing, modifying, or deleting critical data.
+- **Reputation:** A secure system fosters user trust and protects the credibility of the platform.
+
+
